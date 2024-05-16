@@ -1,0 +1,531 @@
+@media (max-width: 800px) {
+    .navbar-button{
+        display: block;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .navbar-button{
+        display: block;
+    }
+    .suport-imag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 340px;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 16px;
+        /* position: relative; */
+    }
+
+    .baner-section{
+        height: 420px;
+        width: 100%;  
+    }
+
+    .baner-object{
+        padding-top: 10px;
+    }
+    
+/* navbar css */
+.navbar{
+  
+    top: 15px;
+    width: 100%;
+}
+
+.nav-object{
+    justify-content: space-between;
+    padding: 0 50px;
+    
+}
+
+.list-hover:hover{
+    border-bottom: 2px solid rgb(53, 4, 4);
+    scroll-behavior: smooth;
+}
+.list-border{
+    border-bottom: 2px solid rgb(53, 4, 4);
+    
+}
+
+.logo img{
+    width: 153px;
+    
+}
+
+
+.nav-items{
+    display: none;
+   cursor: pointer;
+}
+
+.nav-list{
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+}
+/* navbar end */
+    .baner-section{
+        height: 550px;
+        width: 100%;
+        
+    }
+    .baner-image{
+        text-align: center;
+    }
+    
+.baner-text{
+    align-items: center;
+    margin-top: 50px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+ 
+}
+
+.baner-text h1{
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.baner-midle-text{
+    font-size: 23px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.b-ancer a{
+    background-color: #4e7713;
+    color: #fff;
+}
+
+.hbtn {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 12px 24px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.theme-span{
+    color: #4e7713;
+    font-weight: 400;
+}
+
+.features {
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features-title {
+    width: 100%;
+}
+.theme-g{
+    gap: 80px;
+}
+.container-pd {
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+
+.features .row-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.features .row-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #4e7713;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+/* feature section  */
+
+.features .feature-info {
+    display: inline-block;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 470px;
+    text-align: left;
+}
+
+.features .feature-info .feature-title {
+    font-size: 33px;
+    font-weight: 700;
+    color: #4e7713;
+    margin-bottom: 20px;
+}
+
+.img-holder img{
+    vertical-align: middle;
+    width: 100%;
+    /* max-width: 346px; */
+}
+
+/* Consulting css */
+.theme-my-top{
+    margin-top: 70px;
+}
+
+.img-holder-bg{
+    background-image: url('https://dynageeksllc.com/media/images/cloud-bg-sm.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.th-p{
+    padding: 10px 20px;
+}
+
+.box-button{
+  
+    margin-top: 55px;
+ }
+
+
+
+}
+
+
+@media (max-width: 1200px) {
+    .navbar{
+  
+        top: 15px;
+        width: 100%;
+    }
+  
+
+    
+
+}
+
+
+@media (max-width: 768px) {
+    .navbar-button{
+        display: block;
+    }
+
+    .theme-pading-footer{
+        padding: 10px 30px;
+    }
+    .theme-mt-up{
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 50px;
+    }
+   
+
+    
+/* navbar css */
+.logo img{
+    width: 153px;
+}
+/* navbar end */
+
+    .baner-section{
+        height: 720px;
+        width: 100%;
+       
+    }
+    .theme-pading{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .baner-image{
+        text-align: center;
+    }
+    
+.baner-text{
+    align-items: center;
+    margin-top: 50px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.baner-text h1{
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+}
+
+.baner-midle-text{
+    font-size: 23px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.b-ancer a{
+    background-color: #4e7713;
+    color: #fff;
+}
+
+.hbtn {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 12px 24px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.theme-span{
+    color: #4e7713;
+    font-weight: 400;
+}
+
+
+.features {
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features-title {
+    width: 100%;
+}
+.theme-g{
+    gap: 80px;
+}
+.container-pd {
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+
+.features .row-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.features .row-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #4e7713;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+/* feature section  */
+
+.features .feature-info {
+    display: inline-block;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 470px;
+    text-align: left;
+}
+
+.features .feature-info .feature-title {
+    font-size: 33px;
+    font-weight: 700;
+    color: #4e7713;
+    margin-bottom: 20px;
+}
+
+.img-holder img{
+    vertical-align: middle;
+    width: 100%;
+    /* max-width: 346px; */
+}
+
+/* Consulting css */
+
+
+.img-holder-bg{
+    background-image: url('https://dynageeksllc.com/media/images/cloud-bg-sm.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.th-p{
+    padding: 10px 20px;
+}
+
+/* support section */
+
+.suport-imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 16px;
+    /* position: relative; */
+}
+
+.suport-imag img{
+    width: 40px;
+    height: 40px;
+    }
+    .suport-text {
+        padding-top: 10px;
+        margin: auto;
+    }
+    
+    .suport-text h1{
+        font-size: 18px;
+        color: #4e7713;
+        font-weight: 600;
+    }
+    
+    .suport-text p{
+        font-size: 16px;
+        font-weight: 300;
+        color: #000;
+        line-height: 21px;
+    }
+    .suport-text h1:hover{
+        font-size: 23px;
+        color: black;
+    }
+
+    .box-two{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        background-color: #CFDABF;
+        height: 200px;
+    }
+
+    
+    .box-one{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        background-color: #CFDABF;
+        height: 200px;
+    }
+    .footer-section{
+        width: 100%;
+        max-width: 100%;
+       height: 100%;
+  
+    }
+    .footer-logo{
+        width: 200px;
+        margin-top: 50PX;
+        padding: 10px ;
+        border-radius: 10px;
+        background-color: #f5f5f5;
+        position: relative;
+    }
+
+    .botumn-section{
+        width: 100%;
+        height: 412px;
+        position: relative;
+        padding: 0;
+    }
+    
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .theme-pading{
+        padding: 20px 30px;
+    }
+    
+}
+
+@media (max-width: 366px) {
+    .box-button{
+        position: relative;
+       margin-top: 8px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .row.custom-padding{
+    padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    
+.box-one{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #CFDABF;
+    height: 250px;
+}
+
+.box-two{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    height: 250px;
+    width: 100%;
+    background-color: #D7E0C9;
+}
+}
+
+
+
